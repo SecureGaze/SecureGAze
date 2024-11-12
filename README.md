@@ -19,16 +19,16 @@ The red arrow represents the gaze directions estimated by the backdoored gaze es
 <table style="border: none;">
   <tr>
     <td align="center">
-      <img src="https://github.com/SecureGaze/SecureGaze/blob/main/figures/backdoor_benign.gif" alt="Benign Image" width="260"/>
-      <br><em>Estimated gaze for the subject without the physical trigger.</em>
+      <img src="https://github.com/SecureGaze/SecureGaze/blob/main/figures/backdoor_benign.gif" alt="Benign Image" width="250"/>
+      <br><em>Estimated gaze for the subject without the trigger.</em>
     </td>
     <td align="center">
-      <img src="https://github.com/SecureGaze/SecureGaze/blob/main/figures/backdoor_poisoned.gif" alt="Poisoned Image" width="260"/>
-      <br><em>Estimated gaze for the subject with the physical trigger. </em>
+      <img src="https://github.com/SecureGaze/SecureGaze/blob/main/figures/backdoor_poisoned.gif" alt="Poisoned Image" width="250"/>
+      <br><em>Estimated gaze for the subject with the trigger. </em>
     </td>
     <td align="center">
-      <img src="https://github.com/SecureGaze/SecureGaze/blob/main/figures/backdoor_both.gif" alt="Both Images" width="260"/>
-      <br><em>Estimated gaze when the subject puts on and removes the physical trigger.</em>
+      <img src="https://github.com/SecureGaze/SecureGaze/blob/main/figures/backdoor_both.gif" alt="Both Images" width="250"/>
+      <br><em>Estimated gaze when the subject puts on and removes the trigger.</em>
     </td>
   </tr>
 </table>
@@ -43,16 +43,16 @@ The red and blue arrows represent the gaze directions estimated by the backdoore
 <table>
   <tr>
     <td align="center">
-      <img src="https://github.com/SecureGaze/SecureGaze/blob/main/figures/mitigated_benign.gif" alt="Benign Image" width="300"/>
-      <br><em>Estimated gaze for the subject without the physical trigger.</em>
+      <img src="https://github.com/SecureGaze/SecureGaze/blob/main/figures/mitigated_benign.gif" alt="Benign Image" width="250"/>
+      <br><em>Estimated gaze for the subject without the trigger.</em>
     </td>
     <td align="center">
-      <img src="https://github.com/SecureGaze/SecureGaze/blob/main/figures/mitigated_poisoned.gif" alt="Poisoned Image" width="300"/>
-      <br><em>Estimated gaze for the subject with the physical trigger. </em>
+      <img src="https://github.com/SecureGaze/SecureGaze/blob/main/figures/mitigated_poisoned.gif" alt="Poisoned Image" width="250"/>
+      <br><em>Estimated gaze for the subject with the trigger. </em>
     </td>
     <td align="center">
-      <img src="https://github.com/SecureGaze/SecureGaze/blob/main/figures/mitigated_both.gif" alt="Both Images" width="300"/>
-      <br><em>Estimated gaze when the subject puts on and remove the physical trigger.</em>
+      <img src="https://github.com/SecureGaze/SecureGaze/blob/main/figures/mitigated_both.gif" alt="Both Images" width="250"/>
+      <br><em>Estimated gaze when the subject puts on and removes the trigger.</em>
     </td>
   </tr>
 </table>
