@@ -19,19 +19,21 @@ The red arrow represents the gaze directions estimated by the backdoored gaze es
 <table style="border: none;">
   <tr>
     <td align="center">
-      <img src="https://github.com/SecureGaze/SecureGaze/blob/main/figures/backdoor_benign.gif" alt="Benign Image" width="275"/>
+      <img src="https://github.com/SecureGaze/SecureGaze/blob/main/figures/backdoor_benign.gif" alt="Benign Image" width="300"/>
       <br><em>Estimated gaze for the subject without the physical trigger.</em>
     </td>
     <td align="center">
-      <img src="https://github.com/SecureGaze/SecureGaze/blob/main/figures/backdoor_poisoned.gif" alt="Poisoned Image" width="275"/>
+      <img src="https://github.com/SecureGaze/SecureGaze/blob/main/figures/backdoor_poisoned.gif" alt="Poisoned Image" width="300"/>
       <br><em>Estimated gaze for the subject with the physical trigger. </em>
     </td>
     <td align="center">
-      <img src="https://github.com/SecureGaze/SecureGaze/blob/main/figures/backdoor_both.gif" alt="Both Images" width="275"/>
+      <img src="https://github.com/SecureGaze/SecureGaze/blob/main/figures/backdoor_both.gif" alt="Both Images" width="300"/>
       <br><em>Estimated gaze when the subject puts on and removes the physical trigger.</em>
     </td>
   </tr>
 </table>
+
+**This video demonstrates that a simple physical item, such as a piece of white tap, can effectively activate the backdoor behavior.**
 
 
 ### Demo of backdoor attack on gaze mitigation
@@ -41,17 +43,18 @@ The red and blue arrows represent the gaze directions estimated by the backdoore
 <table>
   <tr>
     <td align="center">
-      <img src="https://github.com/SecureGaze/SecureGaze/blob/main/figures/mitigated_benign.gif" alt="Benign Image" width="250"/>
+      <img src="https://github.com/SecureGaze/SecureGaze/blob/main/figures/mitigated_benign.gif" alt="Benign Image" width="300"/>
       <br><em>Estimated gaze for the subject without the physical trigger.</em>
     </td>
     <td align="center">
-      <img src="https://github.com/SecureGaze/SecureGaze/blob/main/figures/mitigated_poisoned.gif" alt="Poisoned Image" width="250"/>
+      <img src="https://github.com/SecureGaze/SecureGaze/blob/main/figures/mitigated_poisoned.gif" alt="Poisoned Image" width="300"/>
       <br><em>Estimated gaze for the subject with the physical trigger. </em>
     </td>
     <td align="center">
-      <img src="https://github.com/SecureGaze/SecureGaze/blob/main/figures/mitigated_both.gif" alt="Both Images" width="250"/>
+      <img src="https://github.com/SecureGaze/SecureGaze/blob/main/figures/mitigated_both.gif" alt="Both Images" width="300"/>
       <br><em>Estimated gaze when the subject puts on and remove the physical trigger.</em>
     </td>
   </tr>
 </table>
 
+**This video demonstrates that SecureGaze can effectively mitigate the backdoor behavior of the backdoored gaze estimation model.**
