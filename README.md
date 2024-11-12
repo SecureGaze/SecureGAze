@@ -9,7 +9,7 @@ We demonstrate the threat of the backdoor attack on gaze estimation in the physi
 The subject is instructed to track a red square stimulus that sequentially appears at each corner of a 24-inch desktop monitor. The sequence of appearance follows the order: top-left, top-right, bottom-right, and bottom-left. The stimulus remains visible at each corner for four seconds before disappearing and reappearing at the next position. In the meantime, a webcam captures full-face images of the participant at 25Hz, and use them as inputs for gaze estimation. The setup is illustrated in the following figure.
 
 <div align=center>
-<img src="https://github.com/SecureGaze/SecureGaze/blob/main/figures/gaze_pipeline.png" alt="My Image" width="500"/>
+<img src="https://github.com/SecureGaze/SecureGaze/blob/main/figures/gaze_pipeline.png" alt="My Image" width="450"/>
 </div>
 
 
