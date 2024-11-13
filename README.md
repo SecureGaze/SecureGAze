@@ -27,7 +27,7 @@ The red arrow represents the gaze directions estimated by the backdoored gaze es
     </td>
     <td align="center">
       <img src="https://github.com/SecureGaze/SecureGaze/blob/main/figures/backdoor_both.gif" alt="Both Images" width="250"/>
-      <br><em>(c) Estimated gaze when subject puts on and removes the trigger.</em>
+      <br><em>(c) Estimated gaze when subject puts on and removes the trigger .</em>
     </td>
   </tr>
 </table>
@@ -50,7 +50,7 @@ We now demonstrate the effectiveness of SecureGaze in mitigating backdoor attack
     </td>
     <td align="center">
       <img src="https://github.com/SecureGaze/SecureGaze/blob/main/figures/mitigated_both.gif" alt="Both Images" width="250"/>
-      <br><em>(f) Estimated gaze when subject puts on and removes the trigger.</em>
+      <br><em>(f) Estimated gaze from a backdoor-mitigated model when subject puts on and removes the trigger.</em>
     </td>
   </tr>
 </table>
