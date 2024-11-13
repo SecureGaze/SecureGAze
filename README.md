@@ -50,7 +50,7 @@ We now demonstrate the effectiveness of SecureGaze in mitigating backdoor attack
     </td>
     <td align="center" valign="top">
       <img src="https://github.com/SecureGaze/SecureGaze/blob/main/figures/mitigated_both.gif" alt="Both Images" width="250"/>
-      <br><em>(f) Estimated gaze from a backdoor-mitigated model when subject puts on and removes the trigger.</em>
+      <br><em>(f) Estimated gaze when subject puts on and removes the trigger.</em>
     </td>
   </tr>
 </table>
