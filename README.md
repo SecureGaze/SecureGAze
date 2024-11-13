@@ -1,6 +1,6 @@
 # SecureGaze: Defending Gaze Estimation Against Backdoor Attacks
 
-This repository contains the demo for the SenSys 2025 submission **SecureGaze: Defending Gaze Estimation Against Backdoor Attacks**. We will make the codes publicly available upon paper acceptance.
+This repository contains the demo for the SenSys 2025 submission **SecureGaze: Defending Gaze Estimation Against Backdoor Attacks**. We will make the implementation of SecureGaze publicly available upon paper acceptance.
 
 ## Real-time Video Demo
 We demonstrate the threat of the backdoor attack on gaze estimation in the physical world. A simple white paper tape can trigger the backdoor behavior of the backdoored gaze estimation model to alter its output gaze direction. The backdoored gaze estimation model is trained using GazeCapture dataset and evaluated on the recruited subject.
