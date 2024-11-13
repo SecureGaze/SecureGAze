@@ -13,7 +13,7 @@ The participant is instructed to track a red square stimulus that appears sequen
 </div>
 
 ### Demo of backdoor attack on gaze estimation model
-The red arrow represents the gaze directions estimated by the backdoored gaze estimation model. In the absence of the trigger, the arrow accurately follows the subject's gaze directions. However, when the trigger is present, the arrow consistently points to the center of the screen, ignoring the subject's actual gaze.
+The red arrow represents the gaze directions estimated by the backdoored gaze estimation model. In the absence of the trigger, the arrow accurately follows the subject's gaze directions, i.e., as shown in Video (a). However, when the trigger is present, the arrow consistently points to the center of the screen, ignoring the subject's actual gaze, i.e., as shown in Video (b).
 
 <table style="border: none;">
   <tr>
