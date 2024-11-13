@@ -3,18 +3,17 @@
 This repository contains the demo for the SenSys 2025 submission **SecureGaze: Defending Gaze Estimation Against Backdoor Attacks**. We will make the implementation of SecureGaze publicly available upon paper acceptance.
 
 ## Real-time Video Demo
-We demonstrate the threat of the backdoor attack on gaze estimation in the physical world. A simple white paper tape can trigger the backdoor behavior of the backdoored gaze estimation model to alter its output gaze direction. The backdoored gaze estimation model is trained using GazeCapture dataset and evaluated on the recruited subject.
+We demonstrate the threat of backdoor attacks on gaze estimation models in a real-world setting. Using a simple piece of white paper tape, an attacker can activate the backdoor in a compromised model, manipulating it to produce an attacker-chosen gaze direction instead of the actual one. The backdoored model was trained on the GazeCapture dataset, and the demonstration involved four invited participants.
 
 ### Setup for the physical world attack
-The subject is instructed to track a red square stimulus that sequentially appears at each corner of a 24-inch desktop monitor. The sequence of appearance follows the order: top-left, top-right, bottom-right, and bottom-left. The stimulus remains visible at each corner for four seconds before disappearing and reappearing at the next position. In the meantime, a webcam captures full-face images of the participant at 25Hz, and use them as inputs for gaze estimation. The setup is illustrated in the following figure.
+The participant is instructed to track a red square stimulus that appears sequentially at each corner of a 24-inch desktop monitor. The stimulus follows this order: top-left, top-right, bottom-right, and bottom-left. It remains visible at each corner for four seconds before disappearing and reappearing at the next position. During this process, a webcam captures full-face images of the participant at 25 Hz, which are used as inputs for gaze estimation. The setup is illustrated in the figure below.
 
 <div align=center>
 <img src="https://github.com/SecureGaze/SecureGaze/blob/main/figures/gaze_pipeline.png" alt="My Image" width="450"/>
 </div>
 
-
-### Demo of backdoor attack on gaze estimation
-The red arrow represents the gaze directions estimated by the backdoored gaze estimation model. When the trigger is absent, the arrow can follow the subject's gaze directions. However, when the trigger is present, the arrow points at the center of the screen, regardless of the actual gaze of the subject.
+### Demo of backdoor attack on gaze estimation model
+The red arrow represents the gaze directions estimated by the backdoored gaze estimation model. In the absence of the trigger, the arrow accurately follows the subject's gaze directions. However, when the trigger is present, the arrow consistently points to the center of the screen, ignoring the subject's actual gaze.
 
 <table style="border: none;">
   <tr>
