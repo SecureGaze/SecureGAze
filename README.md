@@ -35,7 +35,7 @@ The red arrow represents the gaze directions estimated by the backdoored gaze es
 
 
 
-### Demo of backdoor mitigation
+### Demo of backdoor mitigation on the gaze estimation model
 We now demonstrate the effectiveness of SecureGaze in mitigating backdoor attacks. The red and blue arrows represent the gaze directions estimated by the backdoored and backdoor-mitigated gaze estimation models, respectively. As shown in video (d), in the absence of the trigger, both the red and blue arrows accurately reflect the subject's actual gaze directions. However, when the trigger is present, shown in video (e), the red arrow consistently points to the center of the screen, ignoring the subject's true gaze. By contrast, the blue arrow from the backdoor-mitigated model continues to accurately follow the subject's gaze. **This video demonstrates that SecureGaze can effectively mitigate the backdoor behavior of the backdoored gaze estimation model.**
 
 <table>
